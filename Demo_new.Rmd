@@ -1,0 +1,73 @@
+---
+title: "Demo"
+author: "hueiying"
+date: "Thursday, January 19, 2017"
+output: 
+  html_document: 
+    toc: yes
+    toc_depth: 5
+---
+
+
+# ¼ĞÃD1
+**²ÊÅé**
+
+#¼ĞÃDŒ_2
+*±×Åé*
+
+#¼ĞÃDŒ_3
+
+å¸¸ç”¨??„ç©?…·è³‡æ??:
+
+- cars
+- iris
+- mtcars
+- mpg (from ggplot2)
+
+- ¤ñÁÉºØÃşé›¢
+    - 100m
+
+##µ{¦¡½X
+
+??‘å€‘å¯ä»¥æ?Šç?‹å?å¯«?œ¨??è¿°ä¸­ï?Œå?æ˜¯`head(iris)`ï¼Œé€™å«???**Inline code**
+
+??„æ?‰å¦ä¸€ç¨®å¯«æ³•ï?Œå«???**Code chunk**
+
+```{R echo =FALSE}
+head(iris)
+tail(iris)
+```
+
+```{R warning=FALSE, message=FALSE}
+library(ggplot2)
+ggplot(cars, aes(speed)) + geom_histogram()
+
+```
+
+## ´¡¤J¹Ï¤ù
+
+![R Super Hero](http://www.icomix.eu/images-comic/Superman-T-Shirt-with-different-letter-R.png)
+
+## Quote
+> Everything happens is a function call.
+> dfdfdg
+
+---
+
+> Run, Forrest, Run!
+
+---
+
+## ªí®æ•¸
+
+|?‡½?•¸??ç¨±|??Ÿç”¨|
+|--------|----|
+|`as.numeric()`|è½‰æ?›æ?numeric|
+|`as.logical()`|è½‰æ?›æ?logical|
+
+
+## ¤Ş¥Î
+- [a warning about warning](https://www.merriam-webster.com/dictionary/warning)
+- [facebook](https://www.facebook.com/)
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
